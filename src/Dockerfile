@@ -16,4 +16,4 @@ RUN set -ex \
     && curl --location "https://github.com/timonier/dumb-entrypoint/raw/master/src/dumb-entrypoint/installer" | INSTALL_DIRECTORY="/usr/sbin" sh -s -- install \
     && curl --location "https://github.com/timonier/dumb-entrypoint/raw/master/src/gosu/installer" | INSTALL_DIRECTORY="/usr/sbin" sh -s -- install
 
-ENTRYPOINT [ "docker-entrypoint.sh" ]
+ENTRYPOINT [ "dumb-entrypoint" , "docker-entrypoint.sh" ]

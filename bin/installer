@@ -25,12 +25,12 @@ fi
 
 case "$1" in
     install )
-        curl --location --output /usr/local/bin/mysql "https://github.com/timonier/mysql/raw/master/bin/cmd"
-        chmod +x /usr/local/bin/mysql
+        curl --location --output /usr/local/bin/redis-cli "https://github.com/timonier/redis/raw/master/bin/cmd"
+        chmod +x /usr/local/bin/redis-cli
     ;;
 
     uninstall )
-        rm --force /usr/local/bin/mysql
+        rm --force /usr/local/bin/redis-cli
     ;;
 
     * )
