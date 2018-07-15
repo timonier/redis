@@ -34,6 +34,8 @@ redis-cli -h redis-morgan.docker
 
 __Note__: Use the script `bin/build` to test your modifications locally.
 
+If you like / use this project, please let me known by adding a [★](https://help.github.com/articles/about-stars/) on the [GitHub repository](https://github.com/timonier/redis).
+
 ## Links
 
 * [image "timonier/redis"](https://hub.docker.com/r/timonier/redis/)
