@@ -7,8 +7,20 @@ Redis is an open source key-value store that functions as a data structure serve
 Linux users can use the [installer](https://github.com/timonier/redis/blob/master/bin/installer):
 
 ```sh
+# Define installation folder
+
+export INSTALL_DIRECTORY=/usr/bin
+
+# Use local installation
+
+sudo bin/installer install
+
+# Use remote installation
+
 curl --location "https://github.com/timonier/redis/raw/master/bin/installer" | sudo sh -s -- install
 ```
+
+__Note__: If you do not define `INSTALL_DIRECTORY`, `installer` will use in `/usr/local/bin`.
 
 ## Usage
 
