@@ -4,8 +4,6 @@ Redis is an open source key-value store that functions as a data structure serve
 
 ## Installation
 
-Linux users can use the [installer](https://github.com/timonier/redis/blob/master/bin/installer):
-
 ```sh
 # Define installation folder
 
