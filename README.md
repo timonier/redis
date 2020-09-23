@@ -2,6 +2,8 @@
 
 Redis is an open source key-value store that functions as a data structure server
 
+⚠️ This project is no longer maintained. ⚠️
+
 ## Installation
 
 ```sh
@@ -36,24 +38,8 @@ redis-cli --help
 redis-cli -h redis-morgan.docker
 ```
 
-## Contributing
-
-1. Fork it.
-2. Create your branch: `git checkout -b my-new-feature`.
-3. Commit your changes: `git commit -am 'Add some feature'`.
-4. Push to the branch: `git push origin my-new-feature`.
-5. Submit a [merge request](https://docs.gitlab.com/ee/user/project/merge_requests/).
-
-__Note 1__: [GitHub repository](https://github.com/timonier/redis) is a mirror. [Merge request](https://docs.gitlab.com/ee/user/project/merge_requests/) has to be submitted to the [GitLab repository](https://gitlab.com/timonier/redis).
-
-__Note 2__: Use the script `bin/build-image` to test your modifications locally.
-
-If you like / use this project, please let me known by adding a [★](https://help.github.com/articles/about-stars/) on the [GitHub repository](https://github.com/timonier/redis) or on the [GitLab repository](https://gitlab.com/timonier/redis).
-
 ## Links
 
 * [image "timonier/redis"](https://hub.docker.com/r/timonier/redis/)
 * [redis](https://redis.io/)
 * [set up docker for mac with native nfs](https://medium.com/@sean.handley/how-to-set-up-docker-for-mac-with-native-nfs-145151458adc)
-* [timonier/dumb-entrypoint](https://gitlab.com/timonier/dumb-entrypoint)
-* [timonier/version-lister](https://gitlab.com/timonier/version-lister)
